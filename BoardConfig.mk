@@ -119,7 +119,7 @@ TW_INCLUDE_LPTOOLS := true
 TW_EXCLUDE_APEX := true
 TW_NO_SCREEN_BLANK := true
 RECOVERY_SDCARD_ON_DATA := true
-TW_INPUT_BLACKLIST := "hbtp_vm"
+TW_INPUT_BLACKLIST := hbtp_vm
 TW_USE_TOOLBOX := true
 TW_NO_BIND_SYSTEM := true
 TW_EXTRA_LANGUAGES := true
@@ -150,4 +150,4 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_USE_NEW_MINADBD := true
 
 # Version/Maintainer
-TW_DEVICE_VERSION := SavedByLight Stable
+TW_DEVICE_VERSION := SavedByLight 16.0.0 Beta
