@@ -26,3 +26,5 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
     update_verifier
+    
+PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := false
