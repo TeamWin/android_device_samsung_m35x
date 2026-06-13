@@ -150,5 +150,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_USE_NEW_MINADBD := true
 
+# PBRP- ONLY FOR PITCH BLACK RECOVERY PROJECT BUILDING
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
+PB_TORCH_MAX_BRIGHTNESS := 1
+
 # Version/Maintainer
 TW_DEVICE_VERSION := SavedByLight Stable
